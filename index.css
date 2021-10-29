@@ -1,0 +1,70 @@
+body {
+    background-image: url("Pic/covid19.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  h2 {
+    user-select: none;
+    text-align: center;
+    font-family:Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    color:azure
+  }
+
+  .input {
+    user-select: none;
+    text-align: center;
+    font-family:Verdana, sans-serif;
+    font-size: 15px;
+    color:azure
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid whitesmoke;
+    width: auto;
+
+  }
+
+  th, td {
+    border: 1px solid whitesmoke;
+    font-family:Verdana, sans-serif;
+  }
+
+  .heading {
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color:azure
+  }
+
+  th {
+    padding: 10px;
+  }
+
+  .updatedName {
+    text-align:left;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color:mintcream
+  }
+
+  .updatedConfirmed, .updatedDead, .updatedRecovered, .updatedActive {
+    text-align:center;
+    font-style: italic;
+    font-size: 15px;
+    color:mintcream
+  }
+
+  table thead
+{
+    position:fixed;}
